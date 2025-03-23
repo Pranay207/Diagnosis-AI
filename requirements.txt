@@ -1,2 +1,22 @@
 streamlit-option-menu
 transformers
+# Core app
+streamlit
+streamlit-option-menu
+
+# Machine Learning
+scikit-learn
+pandas
+numpy
+pickle-mixin
+
+# Chatbot (using Hugging Face Transformers)
+transformers
+torch  # Required for most Hugging Face models
+
+# For NLP or additional preprocessing (if used)
+nltk
+
+# For plotting / visualization (if used in UI)
+matplotlib
+seaborn
