@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  2 22:12:40 2025
 
-@author: yogen
+@author: pranany
 """
 
 import pickle
@@ -11,9 +11,9 @@ from streamlit_option_menu import option_menu
 from transformers import pipeline
 
 # Loading the models
-diabetes_model = pickle.load(open('C:/Users/yogen/OneDrive/Desktop/medical desease system/saved models/diabetes_model (2).sav', 'rb'))
-heart_diseases_model = pickle.load(open('C:/Users/yogen/OneDrive/Desktop/medical desease system/saved models/heart_disease_model.sav', 'rb'))
-parkinsons_diseases_model = pickle.load(open('C:/Users/yogen/OneDrive/Desktop/medical desease system/saved models/parkinsons_model.sav', 'rb'))
+diabetes_model = pickle.load(open( ML Models/diabetes_model (2).sav', 'rb'))
+heart_diseases_model = pickle.load(open( ML models/heart_disease_model.sav', 'rb'))
+parkinsons_diseases_model = pickle.load(open( ML/parkinsons_model.sav', 'rb'))
 
 # AI-powered medical advice chatbot
 medical_chatbot = pipeline('text-generation', model='distilgpt2')
