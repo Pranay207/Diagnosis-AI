@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 from transformers import pipeline
 
 # Loading the models
-diabetes_model = pickle.load(open(diabetes_model = pickle.load(open(r'C:\Users\Shiva\Downloads\AI-Powered-Medical-Diagnosis-System-main\AI-Powered-Medical-Diagnosis-System-main\ML MODELS\diabetes_model (2).sav', 'rb'))
+diabetes_model = pickle.load(open(r'C:\Users\Shiva\Downloads\AI-Powered-Medical-Diagnosis-System-main\AI-Powered-Medical-Diagnosis-System-main\ML MODELS\diabetes_model (2).sav', 'rb'))
 heart_diseases_model = pickle.load(open(r'C:\Users\Shiva\Downloads\AI-Powered-Medical-Diagnosis-System-main\AI-Powered-Medical-Diagnosis-System-main\ML MODELS/heart_disease_model.sav', 'rb'))
 parkinsons_diseases_model = pickle.load(open(r'C:\Users\Shiva\Downloads\AI-Powered-Medical-Diagnosis-System-main\AI-Powered-Medical-Diagnosis-System-main\ML MODELS/parkinsons_model.sav', 'rb'))
 
