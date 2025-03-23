@@ -20,3 +20,5 @@ nltk
 # For plotting / visualization (if used in UI)
 matplotlib
 seaborn
+torch==2.0.1
+transformers==4.35.2
