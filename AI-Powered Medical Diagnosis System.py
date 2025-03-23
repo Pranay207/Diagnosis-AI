@@ -12,8 +12,8 @@ from transformers import pipeline
 
 # Loading the models
 diabetes_model = pickle.load(open( ML Models/diabetes_model (2).sav', 'rb'))
-heart_diseases_model = pickle.load(open( ML models/heart_disease_model.sav', 'rb'))
-parkinsons_diseases_model = pickle.load(open( ML/parkinsons_model.sav', 'rb'))
+heart_diseases_model = pickle.load(open( ML Models/heart_disease_model.sav', 'rb'))
+parkinsons_diseases_model = pickle.load(open( ML Models/parkinsons_model.sav', 'rb'))
 
 # AI-powered medical advice chatbot
 medical_chatbot = pipeline('text-generation', model='distilgpt2')
